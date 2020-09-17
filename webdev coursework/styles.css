@@ -1,0 +1,127 @@
+/* Main Styles*/
+
+body {
+    margin: auto;
+    background: url(images/backgroundbrom.jpg);
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+/*Nav Styles*/
+
+.nav-wrapper {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+}
+
+
+.left-side {
+    display: flex;
+    margin: auto;
+}
+
+.right-side {
+    display: flex;
+    
+}
+
+.nav-wrapper > .left-side > div {
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    margin: auto;
+        padding-right: 30px;
+}
+
+.nav-link-wrapper a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+    color:black;
+}
+
+/* Portfolio Styles*/
+.topcontent {
+    background: white;
+    border-bottom 20px; 
+    border-radius: 50px 50px 50px 50px;
+    border-color: white;
+    display: flex;
+    margin-top: 100px;
+}
+
+.topcontent img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    display: block;
+}
+
+.toptitle {
+    
+    margin-right: 50px;
+    font-size: 120%;
+}
+
+.midcontent {
+    background: white;
+    border-bottom 20px; 
+    border-radius: 50px 50px 50px 50px;
+    border-color: white;
+    display: flex;
+    margin-top: 100px;
+}
+
+.midcontent img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    display: block;
+}
+
+.midtitle {
+    margin-right: 50px;
+    font-size: 120%;
+}
+    
+.botcontent {
+    background: white;
+    border-bottom 20px; 
+    border-radius: 50px 50px 50px 50px;
+    border-color: white;
+    display: flex;
+    margin-top: 100px;
+}
+
+.botcontent img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    display: block;
+}
+
+.bottitle {
+    margin-right: 50px;
+    font-size: 120%;
+    }

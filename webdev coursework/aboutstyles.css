@@ -1,0 +1,155 @@
+/* Main Styles*/
+
+body {
+    margin: auto;
+    background: url(images/backgroundbrom.jpg);
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+/*Nav Styles*/
+
+.nav-wrapper {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+}
+
+
+.left-side {
+    display: flex;
+    margin: auto;
+}
+
+.right-side {
+    display: flex;
+    
+}
+
+.nav-wrapper > .left-side > div {
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    margin: auto;
+        padding-right: 30px;
+}
+
+.nav-link-wrapper a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+    color:black;
+}
+
+/* Portfolio Styles*/
+
+.aboutnewstitle1 {
+    background: white;
+    z-index: 100;
+    position: absolute;
+    left:  0px;
+    top: 125px;
+    right: 0px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.aboutnewsdesc {
+    background: white;
+    z-index: 100;
+    position: absolute;
+    left:  0px;
+    top: 345px;
+    right: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.about1 {
+    background: white;
+    position: relative;
+    z-index: 100;
+    left:  0px;
+    top: 270px;
+    right: 0px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.about2 {
+    background: white;
+    position: relative;
+    z-index: 100;
+    left:  0px;
+    top: 270px;
+    right: 0px;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.about3 {
+    background: white;
+    position: relative;
+    z-index: 100;
+    left:  0px;
+    top: 270px;
+    right: 0px;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.about4 {
+    background: white;
+    position: relative;
+    z-index: 100;
+    left:  0px;
+    top: 270px;
+    right: 0px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.about5 {
+    background: white;
+    position: relative;
+    z-index: 100;
+    left:  0px;
+    top: 270px;
+    right: 0px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 30px;
+    margin: 0px;
+}
